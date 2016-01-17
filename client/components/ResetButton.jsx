@@ -6,12 +6,8 @@ ResetButton = React.createClass({
   },
 
   render() {
-    var style = _.extend({}, ButtonStyle, {
-      backgroundColor: 'red'
-    });
-
     return (
-      <button style={style} onClick={this.handleReset}>Reset {this.props.total} Clicks?!</button>
+      <button onClick={this.handleReset}>Reset {this.props.total} Clicks?!</button>
     );
   }
 });
