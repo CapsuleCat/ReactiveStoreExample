@@ -1,6 +1,6 @@
 # Reactive Store Test
 
-Demonstration application for Meteor using React, Stores, and Mongo.
+Demonstration application for Meteor using React, Reflux Stores, and Mongo.
 
 Read more on [the Capsule Cat blog](http://blog.capsulecat.com/2016/01/16/reactive-stores-with-react/ ).
 
