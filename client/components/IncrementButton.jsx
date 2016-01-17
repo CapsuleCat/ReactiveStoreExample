@@ -6,10 +6,8 @@ IncrementButton = React.createClass({
   },
 
   render() {
-
-
     return (
-      <button style={ButtonStyle} onClick={this.handleClick}>Click Me</button>
+      <button onClick={this.handleClick}>Click Me</button>
     );
   }
 });
